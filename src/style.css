@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+.headerContainer {
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header {
+    width: 1020px;
+    height: 63px;
+    background-color: rgb(50, 50, 50);
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 10px;
+}
+.triangleDown {
+    width: 0;
+    height: 0;
+    border-left: 153px solid transparent;
+    border-right: 153px solid transparent;
+    border-top: 89px solid rgb(50, 50, 50);
+    position: relative;
+  }
+.logo {
+    align-self: flex-start;
+}
