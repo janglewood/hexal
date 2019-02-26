@@ -12,21 +12,17 @@ body {
     align-items: center;
     background-color: rgb(50, 50, 50);
 }
-li {
-    list-style-type: none;
-}
 a {
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
-ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+a:focus {
+    color: rgb(46, 179, 152);
 }
 .header {
     width: 1020px;
     height: 100%;
+    align-self: center;
 }
 .buttons {
     display: flex;
@@ -37,6 +33,32 @@ ul {
     font-weight: bold;
     font-size: 10px;
 }
+.left {
+    position: relative;
+    top: 4px;
+    left: -36px;
+}
+.right {
+    position: relative;
+    top: 4px;
+    left: 39px;
+}
+#portfolio {
+    position: relative;
+    margin-right: 11px;
+}
+#about {
+    position: relative;
+    margin-left: 11px;
+}
+#blog {
+    position: relative;
+    margin-right: 10px;
+}
+#getInTouch {
+    position: relative;
+    margin-left: 11px;
+}
 .triangleDown {
     width: 0;
     height: 0;
@@ -46,14 +68,30 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 25px;
   }
 .logo {
     align-self: flex-start;
 }
 .logoImage {
-    align-self: center;
+    position: relative;
+    top: 8px;
+    left: 1px;
 }
 .downPart {
     display: flex;
     flex-direction: row;
+}
+.line {
+    height: 1px;
+    width: 410px;
+    align-self: center;
+    position: relative;
+    top: -2px;
+}
+#lineLeft {
+    margin-left: 30px;
+}
+.dot {
+    color: rgb(65, 69, 82);
 }
