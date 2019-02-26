@@ -16,7 +16,7 @@ a {
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
-a:focus {
+a:focus, a:hover {
     color: rgb(46, 179, 152);
 }
 .header {
@@ -70,9 +70,6 @@ a:focus {
     justify-content: center;
     margin: 0 25px;
   }
-.logo {
-    align-self: flex-start;
-}
 .logoImage {
     position: relative;
     top: 8px;
