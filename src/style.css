@@ -1,9 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: stretch;
-    margin: 0px;
-    width: 100%;
+    margin: 0 auto;
+    width: 1020px;
 }
 .headerContainer {
     flex-direction: row;
@@ -22,7 +21,7 @@ a:focus, a:hover {
     color: rgb(46, 179, 152);
 }
 .header {
-    width: 1020px;
+    width: 100%;
     height: 100%;
     align-self: center;
 }
@@ -104,11 +103,11 @@ a:focus, a:hover {
 }
 .lowerLeft {
     top: -13px;
-    margin-left: 10px;
+    margin: 0 10px;
 }
 .lowerRight {
     top: -13px;
-    margin-left: 10px;
+    margin: 0 10px;
 }
 #lineLeft {
     margin-left: 30px;
@@ -118,13 +117,21 @@ a:focus, a:hover {
 }
 .content {
     display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+.hexagonGrid {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    max-width: 1020px;
     align-self: center;
     justify-content: center;
     padding-top: 95px;
+    padding-bottom: 64px;
 }
 .hexagon {
     width: 180px;
@@ -153,11 +160,6 @@ a:focus, a:hover {
     visibility: visible;
     overflow: hidden;
     transform: rotate(-60deg);
-}
-.row2 {
-    position: relative;
-    top: -67px;
-    left: -95px;
 }
 #image1 {
     background-image: url("./accets/image1.png");
@@ -197,4 +199,20 @@ a:focus, a:hover {
 }
 #image13 {
     background-image: url("./accets/image13.png");
+}
+.sliderThumbnails {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    margin: 0 30px;
+    padding-bottom: 11px;
+}
+.thumbnail {
+    background-color: rgb(221, 210, 197);
+    width: 6px;
+    height: 6px;
+    margin-right: 3px;
+}
+.thumbnail:hover {
+    background-color: rgb(139, 135, 132);
 }
