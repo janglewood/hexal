@@ -81,12 +81,34 @@ a:focus, a:hover {
     display: flex;
     flex-direction: row;
 }
-.line {
+.horizontalLine {
     height: 1px;
     width: 410px;
     align-self: center;
     position: relative;
     top: -2px;
+}
+.verticalLine {
+    height: 105px;
+    width: 1px;
+    align-self: center;
+    position: relative;
+}
+.upperLeft {
+    top: -13px;
+    margin-right: 10px;
+}
+.upperRight {
+    top: -13px;
+    margin-left: 10px;
+}
+.lowerLeft {
+    top: -13px;
+    margin-left: 10px;
+}
+.lowerRight {
+    top: -13px;
+    margin-left: 10px;
 }
 #lineLeft {
     margin-left: 30px;
@@ -102,15 +124,18 @@ a:focus, a:hover {
     max-width: 1020px;
     align-self: center;
     justify-content: center;
+    padding-top: 95px;
 }
 .hexagon {
     width: 180px;
     height: 210px;
     transform: rotate(120deg);
-    margin: 20px;
+    margin: 0 10px;
     overflow: hidden;
     visibility: hidden;
     cursor: pointer;
+    margin-top: -34px;
+    margin-bottom: -7px;
     }
 .hexagonLayer1 {
     visibility: hidden;
@@ -128,6 +153,11 @@ a:focus, a:hover {
     visibility: visible;
     overflow: hidden;
     transform: rotate(-60deg);
+}
+.row2 {
+    position: relative;
+    top: -67px;
+    left: -95px;
 }
 #image1 {
     background-image: url("./accets/image1.png");
