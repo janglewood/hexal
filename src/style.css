@@ -333,15 +333,113 @@ a:focus, a:hover {
 }
 .contactForm {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     width: 100%;
     height: 564px;
     background-color: rgb(50, 50, 50);
 }
 #contactFormLine {
     background-color: rgb(43, 43, 43);
-    align-self: baseline;
     margin-top: 13px;
+}
+.blockContainer {
+    display: flex;
+    flex-direction: row;
+    width: 780px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 33px;
+}
+form #title {
+    font-family: Maven Pro;
+    font-size: 30px;
+    color: rgb(224, 224, 224);
+    font-weight: normal;
+}
+form #subtitle {
+    font-family: Maven Pro;
+    font-size: 18px;
+    color: rgb(224, 224, 224);
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+.formContainer input {
+    height: 38px;
+    width: 550px;
+    border: 0;
+    font-size: 12px;
+    font-family: Lato;
+    padding: 0px 15px;
+    background-color: rgb(69, 69, 69);
+    color: rgb(190, 190, 190);
+}
+.formContainer #email{
+    margin-top: -3px;
+}
+.formContainer #subject{
+    margin-top: -1px;
+}
+.formContainer #message{
+    margin-top: -2px;
+}
+.formContainer textarea {
+    height: 130px;
+    width: 552px;
+    margin-bottom: 16px;
+    border: 0;
+    font-size: 12px;
+    font-family: Lato;
+    padding: 10px 14px;
+    background-color: rgb(69, 69, 69);
+    color: rgb(190, 190, 190);
+    resize: none;
+}
+.formContainer #submitButton {
+    width: 90px;
+    height: 37px;
+    background-color: rgb(46, 179, 152);
+    color: rgb(215, 252, 245);
+    align-self: flex-end;
+    margin-top: -18px;
+}
+.contactsContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 104px 0 0 21px;
+}
+.textBlock {
+    font-family: Lato;
+    font-size: 12px;
+    color: rgb(190, 190, 190);
+    word-break: break-all;
+    word-spacing: 0.6em;
+    line-height: 1.8em;
+}
+.textBlock b {
+    color: rgb(224, 224, 224);
+}
+#location, #email, #phone {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(190, 190, 190);
+}
+.contactsBlock {
+    margin-top: 39px;
+}
+.contactsBlock img {
+    height: 12px;
 }
