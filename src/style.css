@@ -86,12 +86,14 @@ a:focus, a:hover {
     align-self: center;
     position: relative;
     top: -2px;
+    background-color: rgb(238, 233, 235);
 }
 .verticalLine {
     height: 105px;
     width: 1px;
     align-self: center;
     position: relative;
+    background-color: rgb(238, 233, 235);
 }
 .upperLeft {
     top: -13px;
@@ -203,9 +205,9 @@ a:focus, a:hover {
 #image14 {
     background-image: url("./accets/photo.png");
 }
-#image14:hover {
-    transform: scale(1.3) rotate(-60deg);
-    /*transform: rotate(-60deg);*/
+.hexagon:hover {
+    transform: scale(1.16) rotate(120deg);
+    transition: transform 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
 }
 .sliderThumbnails {
     display: flex;
@@ -226,7 +228,7 @@ a:focus, a:hover {
 .lowerCentral {
     width: 960px;
     top: 0px;
-    padding-bottom: 11px;
+    margin-bottom: 11px;
 }
 .aboutMe {
     display: flex;
@@ -238,9 +240,14 @@ a:focus, a:hover {
     background-color: rgb(46, 179, 152);
 }
 .aboutLeft {
-    /*padding: 12px 0;*/
     height: 316px;
-    padding-left: 100px;
+    margin-left: 99px;
+    background-color: rgb(33, 157, 132);
+}
+.aboutRight {
+    height: 316px;
+    margin-left: 18px;
+    background-color: rgb(33, 157, 132);
 }
 .photo {
     margin: 0 20px;
@@ -256,21 +263,71 @@ a:focus, a:hover {
     font-size: 30px;
     font-family: Maven Pro;
     text-align: start;
+    margin: -7px 0px 0px -3px;
 }
 .career {
     color: rgb(33, 132, 112);
     font-size: 18px;
     font-family: Maven Pro;
+    margin: -2px 0px 0px -1px;
 }
 .lorem {
     color: rgb(215, 252, 245);
     font-size: 12px;
     font-family: Lato;
+    margin: 12px 0px 36px 0px;
+    line-height: 22px;
 }
 .socialButtonsContainer {
     display: flex;
     flex-direction: row;
     width: 150px;
     height: 24px;
+    align-self: flex-end;
+}
+.photo:hover {
+    transform: scale(1) rotate(120deg);
+    cursor: default;
+}
+.buttonLogo {
+    width: 25px;
+    height: 24px;
+}
+#fbLogo {
+    background-image: url("./accets/facebookBtn.png");
+}
+#fbLogo:hover {
+    background-image: url("./accets/facebookBtn.svg");
     background-color: white;
+}
+#twitterLogo {
+    background-image: url("./accets/twitterBtn.png");
+}
+#twitterLogo:hover {
+    background-image: url("./accets/twitterBtn.svg");
+}
+#googleLogo {
+    background-image: url("./accets/googleBtn.png");
+}
+#googleLogo:hover {
+    background-image: url("./accets/googleBtn.svg");
+    background-color: white;
+}
+#pinterestLogo {
+    background-image: url("./accets/pinterestBtn.png");
+}
+#pinterestLogo:hover {
+    background-image: url("./accets/pinterestBtn.svg");
+}
+#linkedinLogo {
+    background-image: url("./accets/linkedinBtn.png");
+}
+#linkedinLogo:hover {
+    background-image: url("./accets/linkedinBtn.svg");
+}
+#dribbleLogo {
+    background-image: url("./accets/dribbleBtn.png");
+}
+#dribbleLogo:hover {
+    background-image: url("./accets/dribbleBtn.svg");
 }
