@@ -1,8 +1,11 @@
 body {
+    margin: 0 auto;
+}
+.pageWrapper {
     display: flex;
     flex-direction: column;
+    width: 100%;
     margin: 0 auto;
-    width: 1020px;
 }
 .headerContainer {
     flex-direction: row;
@@ -21,7 +24,7 @@ a:focus, a:hover {
     color: rgb(46, 179, 152);
 }
 .header {
-    width: 100%;
+    width: 1020px;
     height: 100%;
     align-self: center;
 }
@@ -121,6 +124,7 @@ a:focus, a:hover {
     display: flex;
     flex-direction: column;
     width: 100%;
+    max-width: 1020px;
     justify-content: center;
     align-items: center;
     align-self: center;
@@ -129,7 +133,7 @@ a:focus, a:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
+    max-width: 1020px;
     align-self: center;
     justify-content: center;
     padding-top: 95px;
@@ -264,11 +268,13 @@ a:focus, a:hover {
     font-family: Maven Pro;
     text-align: start;
     margin: -7px 0px 0px -3px;
+    font-weight: normal;
 }
 .career {
     color: rgb(33, 132, 112);
     font-size: 18px;
     font-family: Maven Pro;
+    font-weight: normal;
     margin: -2px 0px 0px -1px;
 }
 .lorem {
@@ -336,9 +342,12 @@ a:focus, a:hover {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    max-width: 1020px;
     width: 100%;
     height: 564px;
     background-color: rgb(50, 50, 50);
+    flex-wrap: wrap;
+    align-self: center;
 }
 #contactFormLine {
     background-color: rgb(43, 43, 43);
@@ -455,9 +464,10 @@ form #subtitle {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    width: 100%;
+    width: 1020px;
     background-color: rgb(34, 34, 34);
     height: 42px;
+    align-self: center;
 }
 .footer div {
     font-size: 12px;
