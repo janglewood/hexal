@@ -246,7 +246,7 @@ a:focus, a:hover {
 }
 .aboutRight {
     height: 316px;
-    margin-left: 19px;
+    margin-left: 20px;
     background-color: rgb(33, 157, 132);
 }
 .photo {
@@ -387,19 +387,19 @@ form #subtitle {
     margin-top: -3px;
 }
 .formContainer #subject{
-    margin-top: -1px;
+    margin-top: -3px;
 }
 .formContainer #message{
-    margin-top: -2px;
+    margin-top: -5px;
 }
 .formContainer textarea {
     height: 130px;
     width: 552px;
-    margin-bottom: 16px;
+    margin-bottom: 19px;
     border: 0;
     font-size: 12px;
     font-family: Lato;
-    padding: 10px 14px;
+    padding: 11px 14px;
     background-color: rgb(69, 69, 69);
     color: rgb(190, 190, 190);
     resize: none;
@@ -410,7 +410,7 @@ form #subtitle {
     background-color: rgb(46, 179, 152);
     color: rgb(215, 252, 245);
     align-self: flex-end;
-    margin-top: -18px;
+    margin-top: -22px;
 }
 .contactsContainer {
     display: flex;
@@ -428,18 +428,31 @@ form #subtitle {
 .textBlock b {
     color: rgb(224, 224, 224);
 }
-#location, #email, #phone {
+#locationInfo, #emailInfo, #phoneInfo {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    align-items: center;
     font-family: Lato;
     font-size: 12px;
     font-weight: bold;
     color: rgb(190, 190, 190);
+    padding-bottom: 6px;
 }
 .contactsBlock {
-    margin-top: 39px;
+    margin-top: 41px;
 }
 .contactsBlock img {
-    height: 12px;
+    margin-right: 14px;
 }
+#location img {
+    width: 9px;
+}
+#phone img {
+    width: 10px;
+}
+#email img {
+    width: 12px;
+    height: 9px;
+}
+
