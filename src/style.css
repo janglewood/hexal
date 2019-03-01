@@ -472,4 +472,8 @@ form #subtitle {
     color: rgb(190, 190, 190);
     padding-bottom: 6px;
 }
+#contactFormLowerLine {
+    margin-top: 57px;
+    background-color: rgb(43, 43, 43);
+}
 
