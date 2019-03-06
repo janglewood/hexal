@@ -451,21 +451,25 @@ form #subtitle {
     width: 12px;
     height: 9px;
 }
-.footer {
+footer {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     width: 100%;
     background-color: rgb(34, 34, 34);
-    height: 42px;
     align-self: center;
 }
-.footer div {
+footer .copyright {
+    display: flex;
+    flex-direction: row;
     font-size: 12px;
     font-family: Maven Pro;
     color: rgb(69, 69, 69);
     padding-left: 40px;
+    align-self: flex-start;
+    height: 43px;
+    align-items: center;
 }
 .contactsBlock a {
     font-family: Lato;
