@@ -143,7 +143,7 @@ a:focus, a:hover {
     width: 180px;
     height: 210px;
     transform: rotate(120deg);
-    margin: 0 10px;
+    margin: -33px 10px -9px;
     overflow: hidden;
     visibility: hidden;
     cursor: pointer;
@@ -210,7 +210,7 @@ a:focus, a:hover {
     background-image: url("./accets/photo.png");
 }
 .hexagon:hover {
-    transform: scale(1.16) rotate(120deg);
+    transform: scale(1.14) rotate(120deg);
     transition: transform 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
 }
 .sliderThumbnails {
@@ -367,6 +367,8 @@ a:focus, a:hover {
     display: flex;
     flex-direction: row;
     max-width: 780px;
+    justify-content: space-between;
+    width: 100%;
 }
 form {
     display: flex;
@@ -378,6 +380,8 @@ form {
     display: flex;
     flex-direction: column;
     padding-top: 33px;
+    max-width: 580px;
+    width: 100%;
 }
 form #title {
     font-family: Maven Pro;
@@ -394,13 +398,14 @@ form #subtitle {
 }
 .formContainer input {
     height: 38px;
-    width: 550px;
+    max-width: 550px;
+    width: 100%;
     border: 0;
     font-size: 12px;
     font-family: Lato;
     padding: 0px 15px;
     background-color: rgb(69, 69, 69);
-    color: rgb(224, 224, 224);;
+    color: rgb(224, 224, 224);
     margin-bottom: 16px;
 }
 .formContainer textarea {
@@ -427,13 +432,13 @@ form #subtitle {
 .contactsContainer {
     display: flex;
     flex-direction: column;
-    margin: 104px 0 0 21px;
+    max-width: 180px;
+    margin-top: 104px;
 }
 .textBlock {
     font-family: Lato;
     font-size: 12px;
     color: rgb(190, 190, 190);
-    word-break: break-all;
     word-spacing: 0.6em;
     line-height: 1.8em;
 }
@@ -445,9 +450,10 @@ form #subtitle {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    height: 21px;
 }
 .contactsBlock {
-    margin-top: 41px;
+    margin-top: 16px;
 }
 .contactsBlock img {
     margin-right: 14px;
@@ -487,7 +493,6 @@ footer .copyright {
     font-size: 12px;
     font-weight: bold;
     color: rgb(190, 190, 190);
-    padding-bottom: 6px;
 }
 #contactFormLowerLine {
     margin-top: 53px;
@@ -499,5 +504,23 @@ footer .copyright {
     }
     .hexagon {
       margin-bottom: 50px;
+    }
+    .formContainer {
+        display: flex;
+        flex-direction: column;
+        padding-top: 33px;
+        max-width: 580px;
+        width: 70%;
+    }
+    .formContainer input {
+        height: 38px;
+        max-width: 550px;
+        width: 100%;
+        border: 0;
+        font-size: 12px;
+        font-family: Lato;
+        background-color: rgb(69, 69, 69);
+        color: rgb(224, 224, 224);
+        margin-bottom: 16px;
     }
 }
