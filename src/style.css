@@ -314,39 +314,39 @@ a:focus, a:hover {
     background-image: url("./accets/facebookBtn.png");
 }
 #fbLogo:hover {
-    background-image: url("./accets/facebookBtn.svg");
+    background-image: url("./accets/facebook.png");
     background-color: white;
 }
 #twitterLogo {
     background-image: url("./accets/twitterBtn.png");
 }
 #twitterLogo:hover {
-    background-image: url("./accets/twitterBtn.svg");
+    background-image: url("./accets/twitter.png");
 }
 #googleLogo {
     background-image: url("./accets/googleBtn.png");
 }
 #googleLogo:hover {
-    background-image: url("./accets/googleBtn.svg");
+    background-image: url("./accets/google.png");
     background-color: white;
 }
 #pinterestLogo {
     background-image: url("./accets/pinterestBtn.png");
 }
 #pinterestLogo:hover {
-    background-image: url("./accets/pinterestBtn.svg");
+    background-image: url("./accets/pinterest.png");
 }
 #linkedinLogo {
     background-image: url("./accets/linkedinBtn.png");
 }
 #linkedinLogo:hover {
-    background-image: url("./accets/linkedinBtn.svg");
+    background-image: url("./accets/linkedin.png");
 }
 #dribbleLogo {
     background-image: url("./accets/dribbleBtn.png");
 }
 #dribbleLogo:hover {
-    background-image: url("./accets/dribbleBtn.svg");
+    background-image: url("./accets/dribble.png");
 }
 .contactForm {
     display: flex;
