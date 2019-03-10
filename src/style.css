@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "Lato";
+    src: url("./accets/fonts/Lato-Regular.ttf");
+}
+@font-face {
+    font-family: "Maven Pro";
+    src: url("./accets/fonts/MavenPro-Regular.ttf");
+}
 body {
     margin: 0 auto;
 }
