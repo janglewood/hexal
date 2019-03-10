@@ -216,6 +216,7 @@ a:focus, a:hover {
 }
 #image14 {
     background-image: url("./accets/photo.png");
+    background-position: 49% 49%;
 }
 .hexagon:hover {
     transform: scale(1.14) rotate(120deg);
